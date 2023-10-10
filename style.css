@@ -277,16 +277,15 @@ input.nav-checkbox {
 }
 /*end nav-bar style*/
 
-/*photo-and-name è la prima sezione che troviamo nell'hp e about-me*/
 .photo-and-name {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 2rem;
-    margin: 4.5rem;
+    margin: 4rem;
     }
 
-.me-stessa {
+.myself {
     border: 4px #E4A8C1 solid;
     border-radius: 100%;
     width: 6.25rem;
@@ -294,12 +293,12 @@ input.nav-checkbox {
     }
 
     @media only screen and (min-width:768px) {
-        .me-stessa {
+        .myself {
         width: 9.375rem;
          height: 9.375rem;
         }
         }
-/*end photo and name*/
+
 
 /*big-buttons home page*/
 .big-buttons-container {
@@ -852,7 +851,7 @@ border: none;
 font-family: Poppins;
 font-style: normal;
 line-height: normal;
-
+font-size: 12px;
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
@@ -926,40 +925,35 @@ ul.footer-link-section li a {
     }
 }
 
-.photo-and-name ul li  {
-display: flex;
-align-items: center;
-gap: 0.625rem;
-margin: 0.5rem;
-
-font-family: Arial;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+.info-section-index {
+display:flex; 
+flex-direction: column;
 }
 
-.photo-and-name ul li img {
-    width: 40 px;
+.logo-and-paragraph-index {
+    display:inline-flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
     }
-    
 
-    .photo-and-name ul li a {
-       color:#E4A8C1;
-       display:flex;
-        }
+.logo-and-paragraph-index-2 {
+display:flex; 
+flex-direction: row; 
+justify-content: flex-start;
+ align-items: center;
+ margin-top: 1.3em
+}
 
-        @media only screen and (min-width:768px) {
-            .photo-and-name ul li  {
-                display: flex;
-                align-items: center;
-                gap: 0.625rem;
-                margin: 0.5rem;
-                
-                font-family: Arial;
-                    font-size: 14px;
-                    font-style: normal;
-                    font-weight: 400;
-                    line-height: normal;
-                } 
-            }
+.paragraph-index {
+margin-left: 1.2rem;
+    }
+
+
+ .logo-index img {
+            width: 40px;
+                }
+
+                .paragraph-index a {
+                    color:  #E4A8C1;
+                        }
