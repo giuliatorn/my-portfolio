@@ -565,7 +565,7 @@ align-self: stretch
 
     @media only screen and (max-width:390px) {
     .accordion-content img {
-     width: 320px;
+     width: 340px;
     }
 }
 
