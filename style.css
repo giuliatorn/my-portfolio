@@ -559,15 +559,23 @@ align-self: stretch
         flex-direction: column;
         align-items: flex-start;
         gap: 2rem;
-        margin: 0 auto;
         flex-wrap: wrap;
+        margin: 0 auto;
     }
+
+    @media only screen and (max-width:390px) {
+    .accordion-content img {
+     width: 320px;
+    }
+}
+
 
     #accordion {
         display: flex;
         width: 22.25rem;
         flex-direction: column;
         align-items: flex-start;
+        align-self: stretch;
     }
 
      
@@ -579,13 +587,13 @@ align-self: stretch
         margin: 2rem 0rem;
     }
 
-    .portolio-accordion-content-and-title {
+    .portfolio-accordion-content-and-title {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 1rem;
-        padding:1rem;
-    }
+        align-self: stretch;
+        padding-right: 5rem;   
+     }
 
     #accordion label {
         display: flex;
