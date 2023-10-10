@@ -467,7 +467,7 @@ display: block;
     justify-content: left;
     }
 
-    .about-progetti-content li {                    
+    .about-progetti-content a {                    
     display: flex;
     padding: 0.5rem 0rem;
     flex-direction: column;
