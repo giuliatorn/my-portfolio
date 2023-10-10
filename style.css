@@ -234,18 +234,17 @@ input.nav-checkbox {
     margin-bottom: 1rem;
 }
 
-.nav-menu li:first-child { 
-   margin-right: auto;
-   display: block;
-
+.nav-menu .logo { 
+margin-right: auto;
+display: block;
 }
 
 
-.nav-menu li { 
+.nav-menu a { 
     display: none;
 }
 
-#nav-checkbox:checked ~ ul.nav-menu li { 
+#nav-checkbox:checked ~ .nav-menu a { 
     display: block;
 }
 
@@ -265,7 +264,7 @@ input.nav-checkbox {
         flex-direction: row;
     }
 
-    .nav-menu li {
+    .nav-menu a {
         display: block;
         margin: 1.5rem 1rem 0rem 1rem;
     }
@@ -955,5 +954,5 @@ margin-left: 1.2rem;
                 }
 
                 .paragraph-index a {
-                    color:  #E4A8C1;
+                    color:#E4A8C1
                         }
