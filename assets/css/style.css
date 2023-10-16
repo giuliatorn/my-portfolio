@@ -573,6 +573,10 @@ align-self: stretch
     .accordion-content img {
      width: 320px;
     }
+
+    .accordion-content > div  {
+        width: 320px;
+    }
 }
 
 
