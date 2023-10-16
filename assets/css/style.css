@@ -312,6 +312,7 @@ display: block;
 .big-buttons-list a {
     display: flex;
     border-bottom: 2px solid #E4A8C1;
+    padding: 0.5rem 0;
         } 
 
  @media only screen and (min-width:576px) {
@@ -516,6 +517,11 @@ align-self: stretch
         flex-wrap: wrap;
         justify-content: left;
     }
+    .general-info  {
+        padding-top: 2rem;
+        
+    }
+
 
     @media only screen and (min-width:576px)  {
 
@@ -565,7 +571,7 @@ align-self: stretch
 
     @media only screen and (max-width:390px) {
     .accordion-content img {
-     width: 340px;
+     width: 320px;
     }
 }
 
@@ -575,7 +581,7 @@ align-self: stretch
         width: 22.25rem;
         flex-direction: column;
         align-items: flex-start;
-        align-self: stretch;
+        padding-right: 5rem;   
     }
 
      
@@ -591,14 +597,13 @@ align-self: stretch
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        align-self: stretch;
-        padding-right: 5rem;   
+        align-self: stretch;   
      }
 
     #accordion label {
         display: flex;
         min-width: 22.25rem;
-        padding: 1rem 0rem;
+        padding: 1rem 1rem;
         justify-content: space-between;
         align-items: center;
 
@@ -628,7 +633,6 @@ align-self: stretch
      #accordion label + input[type="radio"]:checked + .accordion-content {
         max-height: 2000px;
      }
-
 
 @media only screen and (max-width:991px) {
     .portfolio-section-2  { 
@@ -936,14 +940,19 @@ flex-direction: column;
     flex-direction: row; 
     justify-content: flex-start; 
     align-items: center;
+    padding: 0rem 1rem;
+    gap: 1rem;
+    align-self: stretch;
     }
 
 .logo-and-paragraph-index-2 {
-display:flex; 
-flex-direction: row; 
-justify-content: flex-start;
- align-items: center;
- margin-top: 1.3em
+    display:inline-flex; 
+    flex-direction: row; 
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 0rem 1rem;
+    gap: 1rem;
+    align-self: stretch;
 }
 
 .paragraph-index {
